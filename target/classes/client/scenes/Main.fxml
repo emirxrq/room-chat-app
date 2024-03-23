@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="728.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.scenes.controllers.MainController">
+   <children>
+      <TextField fx:id="yourMessage" disable="true" layoutX="291.0" layoutY="442.0" prefHeight="25.0" prefWidth="304.0" promptText="Your message..." />
+      <Button fx:id="sendBtn" disable="true" layoutX="602.0" layoutY="442.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="25.0" prefWidth="90.0" text="Send" />
+      <ListView fx:id="roomsPane" disable="true" layoutX="20.0" layoutY="160.0" onMouseClicked="#roomSelected" prefHeight="306.0" prefWidth="258.0" />
+      <TextField fx:id="yourName" layoutX="20.0" layoutY="31.0" prefHeight="25.0" prefWidth="569.0" promptText="Your name..." />
+      <Button fx:id="joinBtn" layoutX="602.0" layoutY="31.0" mnemonicParsing="false" onMouseClicked="#connectSocket" prefHeight="25.0" prefWidth="90.0" text="Join" />
+      <TextField fx:id="roomName" disable="true" layoutX="20.0" layoutY="95.0" prefHeight="25.0" prefWidth="258.0" promptText="Room Name" />
+      <Button fx:id="createRoom" disable="true" layoutX="20.0" layoutY="128.0" mnemonicParsing="false" onMouseClicked="#createRoom" prefHeight="25.0" prefWidth="258.0" text="Create" />
+      <Separator layoutX="20.0" layoutY="72.0" prefHeight="0.0" prefWidth="673.0" />
+      <ScrollPane hbarPolicy="NEVER" layoutX="291.0" layoutY="95.0" prefHeight="338.0" prefWidth="401.0">
+         <content>
+            <VBox fx:id="messagesPane" disable="true" prefHeight="340.0" prefWidth="401.0" spacing="0" style="-fx-background-color: rgb(235,235,235); -fx-background-radius: 5; -fx-border-color: rgb(0,0,0,.1); -fx-border-width: 1;" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
