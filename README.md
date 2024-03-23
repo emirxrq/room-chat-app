@@ -10,6 +10,7 @@ Burada herkes kendi odasını oluşturabiliyor ve Socket sayesinde herşey gerç
 İlk öncelikle şunu söylemem lazım projede JavaFX, MySQL Connector gibi bağımlılıklar ekledim. Zaten proje maven bir proje. Burada sıfırdan yazamam ancak YouTubeden Eclipse Maven JavaFX nasıl kurulur gibi bir kaç video ile öğrenebilirsiniz.
 
 MySQL'in hata vermemesi için: https://www.youtube.com/watch?v=_WrEwxVBZ8M
+
 Eclipsede JavaFX kurmak için: https://www.youtube.com/watch?v=Dbb69NiQHso
 
 Son olarak MySQL'i kurmak için projede .sql dosyasını zaten bıraktım, MySQL'de onu import edebilirsiniz.
