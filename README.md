@@ -11,8 +11,8 @@ Burada herkes kendi odasını oluşturabiliyor ve Socket sayesinde herşey gerç
 
 [MySQL'in hata vermemesi için ](https://www.youtube.com/watch?v=_WrEwxVBZ8M)
 
-Eclipsede JavaFX ve SceneBuilder kurmak için: https://www.youtube.com/watch?v=Dbb69NiQHso
+[Eclipsede JavaFX ve SceneBuilder kurmak için](https://www.youtube.com/watch?v=Dbb69NiQHso)
 
-Son olarak MySQL'i kurmak için projede .sql dosyasını zaten bıraktım, MySQL'de onu import edebilirsiniz.
+[MySQL'de import etmeniz gereken .sql dosyası](room_chat_app.sql)
 
 ![Örnek Resim](example.png)
